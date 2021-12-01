@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+
+.dropMenu {
+	list-style: none;
+	width: 100%;
+    color: whitesmoke;
+
+}
+.li{
+    font-size: 80px;
+    color: whitesmoke;
+}
+.container{ 
+   
+     background-color: #091034;
+    min-height: 100vh;
+    width: 100%;
+    width: 100%;
+
+    
+
+   
+  
+}
+.menu{
+    padding-left: 80px;
+}
+
+.dropMenu li {
+    color: whitesmoke;
+    text-decoration: none;
+	float: left;
+	position: relative;
+	width:auto;
+    padding: 25px;
+    
+    font-family: 'Brandon Grotesque' ;
+    src: url(./font/BrandonGrotesque-Bold.woff);
+    font-size: 20px;
+   
+}

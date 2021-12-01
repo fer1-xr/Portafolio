@@ -1,0 +1,177 @@
+*{
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+
+.container{ 
+    background-color: #091034;
+   min-height: 100vh;
+   width: 100%;
+display: flex;
+ 
+}
+
+
+
+.dropMenu li {
+    color: whitesmoke;
+    text-decoration: none;
+	float: left;
+	position: relative;
+	width:auto;
+    padding: 25px;
+    
+    font-family: 'Brandon Grotesque' ;
+    src: url(./font/BrandonGrotesque-Bold.woff);
+    font-size: 20px;
+   
+}
+.text{
+    padding-left: 105px;
+    color: whitesmoke;
+  
+    padding-top: 180px;
+    font-family: 'Brandon Grotesque' ;
+ 
+}
+.p{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Brandon Grotesque' ;
+    src: url(./font/BrandonGrotesque-Bold.woff);
+    padding-left: 105px;
+    
+}
+.box{
+    margin-top: 0;
+    padding-left: 95px;
+    
+}
+.grid-container{
+    padding: 105px;
+    background-color: #091034;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 20px;
+
+  
+  
+    
+   
+}
+.capa{
+    
+    font-family: 'Brandon Grotesque' ;
+    src: url(./font/BrandonGrotesque-Bold.woff);
+    font-size: 15px;
+   text-align: center;
+}
+
+
+.card {
+    cursor: pointer;
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+  
+
+  
+
+  
+}
+.cardcard:hover{
+    opacity: 0.6;
+}
+.textos{
+    opacity: 0;
+   
+}
+.textos:hover{
+    opacity: 1;
+}
+
+
+.card .textos {
+	height: 100%;
+    font-family: 'Brandon Grotesque' ;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	
+}
+
+.img{
+ 
+  
+      padding-left: 250px;
+      padding-top: 100px;
+      
+      
+  }
+
+.elemento{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin:0 auto;
+    flex-direction: column;
+ 
+ 
+    
+    }
+.elemento h2{
+    font-family: 'Brandon Grotesque' ;
+    font-size: 30px;
+}   
+.animatedColor {
+        color: white;
+        }
+        
+        .flecha {
+        animation: arrow 1s ease-in-out infinite;
+        font-size:20px;
+        
+        }
+        
+        .flecha:hover{
+        animation:arrow 1s ease-out infinite !important;
+        color:tomato;
+        }  
+@keyframes arrow {
+            0% {
+            transform: translate(0px, 50px);
+            }
+            
+            50% {
+            transform: translate(0px, 60px);
+            }
+            
+            100% {
+            transform: translate(0px, 50px);
+            }
+            }
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+
+}

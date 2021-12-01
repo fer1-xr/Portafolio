@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   grid-gap: 10px;
+   padding-left: 105px;
+    width: 100%;
+    font-family: 'Brandon Grotesque' ;
+    src: url(./font/BrandonGrotesque-Bold.woff);
+    font-size: 20px;
+
+    color: white;
+}
+.box{
+    padding-top: 45px;
+}
+.form{
+    color: white;
+   
+    
+}
+.input{
+    padding: 10px;
+    padding-right: 400px;
+    margin-top: 15px;
+  
+}
+.input-message{
+    padding:50px;
+    padding-right: 360px;
+    margin-top: 15px;
+}
+.button{
+    
+    padding: 10px;
+   
+    
+}
+.btn{
+    padding-top: 15px;
+}
+.socialmedia{
+display: flex;
+align-items: center;
+justify-content: center;
+grid-gap: 20px;
+  flex-direction: column;
+}
